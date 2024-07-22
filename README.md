@@ -21,23 +21,28 @@ Your job is to code an app with user list managment. Application must be SPA and
         "email": "eve.holt@reqres.in",
         "password": "cityslicka"
     } 
+
 * `Users list`
     ![User list](img/userList.png)
     * List of users. 
-    * For each user you must display his details. 
+    * For each user you must display his details.
+      
 * `Users CRUD`
+  
     ![User](img/userCreate.png)
     ![User](img/userEdit.png)
     ![User](img/userDelete.png)
     * Design the user create/edit modal as per the design and API
     * Implement the delete functionality as per design and API
+
 *  `Users Search and Pagination`
-    ![User list](img/Search.png)
+    ![User list](img/search.png)
     *   Implement the client side search as per design
     *   We can search first or last name
     *   Implement the client side pagination as per design
+
 *  `Card and List view`
-    ![User list](img/CarView.png)
+    ![User list](img/carView.png)
     *   Design the card view as per design
     *   Implement the `List` and `Card` view filters
       
