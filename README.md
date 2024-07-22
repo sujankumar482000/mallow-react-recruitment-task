@@ -36,7 +36,7 @@ Your job is to code an app with user list managment. Application must be SPA and
     * Implement the delete functionality as per design and API
 
 *  `Users Search and Pagination`
-    ![User list](img/search.png)
+    ![User list](img/userSearch.png)
     *   Implement the client side search as per design
     *   We can search first or last name
     *   Implement the client side pagination as per design
