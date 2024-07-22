@@ -12,39 +12,53 @@ Your job is to code an app with user list managment. Application must be SPA and
 * Middleware: [redux-thunk] or [redux-saga] (choose as per your knowledge)
 
 ## Screens:
-* `Login` 
-    ![Homepage](img/login.png)
-    * Create a login page as per design.
-    * Implement the login api integration and save the token.
-    * After login success will navigate to `user list` page.
-    * Default credentials : {
-        "email": "eve.holt@reqres.in",
-        "password": "cityslicka"
-    } 
+Certainly! Here is a more detailed version of the text:
 
-* `Users list`
+* `Login` 
+
+    ![Homepage](img/login.png)
+    * Create a login page according to the provided design specifications.
+    * Implement the login API integration and ensure that the token is saved securely.
+    * Upon successful login, the user should be redirected to the `user list` page.
+    * Use the following default credentials for testing purposes:
+        ```json
+        {
+            "email": "eve.holt@reqres.in",
+            "password": "cityslicka"
+        }
+        ```
+
+
+* `Users List`
     ![User list](img/userList.png)
-    * List of users. 
-    * For each user you must display his details.
+    * Display a list of users as per the design.
+    * For each user in the list, display detailed information including their name, email, and other relevant details.
+    * Ensure the list is styled and formatted according to the design guidelines.
+
       
+
 * `Users CRUD`
-  
+
     ![User](img/userCreate.png)
     ![User](img/userEdit.png)
-    ![User](img/userDelete.png)
-    * Design the user create/edit modal as per the design and API
-    * Implement the delete functionality as per design and API
+    * Design and implement a modal for creating and editing users, following the provided design and API specifications.
+    * Ensure that users can be created and edited through the modal interface.
+    * Implement functionality to delete users, with confirmation prompts to prevent accidental deletions.
+    * Make sure all CRUD operations (Create, Read, Update, Delete) are fully functional and tested.
 
-*  `Users Search and Pagination`
+
+* `Users Search and Pagination`
     ![User list](img/userSearch.png)
-    *   Implement the client side search as per design
-    *   We can search first or last name
-    *   Implement the client side pagination as per design
+    * Implement client-side search functionality, allowing users to search by first name or last name.
+    * Ensure the search results are updated in real-time as the user types.
+    * Implement client-side pagination to divide the user list into pages as per the design specifications.
 
-*  `Card and List view`
-    ![User list](img/carView.png)
-    *   Design the card view as per design
-    *   Implement the `List` and `Card` view filters
+
+* `Card and List View`
+    ![User list](img/userCard.png)
+    * Design a card view for displaying users, following the provided design specifications.
+    * Implement functionality to switch between `List` and `Card` views, allowing users to choose their preferred display mode.
+    * Ensure both views are fully functional, responsive, and consistent with the design guidelines.
       
 
 ## Must-have:
