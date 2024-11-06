@@ -72,7 +72,7 @@ Certainly! Here is a more detailed version of the text:
 ## Good to have:
 1. Typescript
 2. Clean code (linters, prettier)
-3. UI kit for styles (or styled-components)
+3. UI kit for styles (Ant Design or styled-components)
 4. Tests
 
 ## What will we be paying attention to:
