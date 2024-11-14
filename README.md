@@ -86,4 +86,4 @@ Certainly! Here is a more detailed version of the text:
 8. How you communicate with API.
 9. Handling unexpected errors or potential exceptions.
 
-## upload your code on Github, Gitlab or Bitbucket and provide us the link.
+## Upload your code to GitHub, GitLab, or Bitbucket and share the link with us. If possible, host your application and provide the URL as well.
